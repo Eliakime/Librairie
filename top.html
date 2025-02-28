@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimbrairie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .navbar, #header {
+            background-color: #000;
+        }
+        .nav-link {
+            color: #fff !important;
+        }
+        .card {
+            background-color: #1e1e1e;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+        }
+        .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .btn-primary {
+            background-color: #ffcc00;
+            border: none;
+            color: #000;
+        }
+		.btn-primarya {
+            background-color: #0cffffc9;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryb {
+            background-color: #8c05ad;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryc {
+            background-color: #ff00ff;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryd {
+            background-color: #5eff00;
+            border: none;
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo btn btn-primary page active">Kimbrairie</a>
+    </header>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link btn btn-primarya " href="index.html">Accueil</a></li>
+					<li class="nav-item"><a class="nav-link btn btn-primaryb " href="serie.html">Séries</a></li>
+					<li class="nav-item active"><a class="nav-link btn btn-primaryc " href="story.html">Histoire</a></li>
+					<li class="nav-item "><a class="nav-link btn btn-primaryd " href="top.html">Top</a></li>
+	</ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Top des Histoires</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="images/LMNPD.jpeg" class="card-img-top" alt="Le Monde N'est Pas Dupe">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Le Monde N'est Pas Dupe</h5>
+                        <p class="card-text">Dans un monde où l’IA et la cybercriminalité redéfinissent les règles, Gens, un génie de l’informatique, infiltre une banque. Mais une guerre secrète l’attend...</p>
+                        <a href="assets/doc/Le monde n’est pas Dupe.pdf" class="btn btn-primary" download>Télécharger et Lire 📄</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="images/Inf.jpeg" class="card-img-top" alt="L'Infini">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">L'Infini</h5>
+                        <p class="card-text">Thomas possède un pouvoir unique : tout ce qu’il souhaite se réalise après 33 secondes. Mais lorsqu’il demande l’Infini, il plonge dans un cauchemar sans fin...</p>
+                        <a href="assets/doc/L'INFINI.pdf" class="btn btn-primary" download>Télécharger et Lire 📄</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; Librairie | Design par <a href="https://cartevisit.vercel.app/" class="btn btn-primary page active">Eliakim Clauvis</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

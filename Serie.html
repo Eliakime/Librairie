@@ -1,168 +1,130 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Kimbrairie</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- Favicons -->
-		<link href="images/kmb.webp" rel="icon">
-		
-		<!-- Vendor CSS Files -->
-		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-		<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimbrairie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .navbar, #header {
+            background-color: #000;
+        }
+        .nav-link {
+            color: #fff !important;
+        }
+        .card {
+            background-color: #1e1e1e;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+        }
+        .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .btn-primary {
+            background-color: #ffcc00;
+            border: none;
+            color: #000;
+        }
+		.btn-primarya {
+            background-color: #0cffffc9;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryb {
+            background-color: #8c05ad;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryc {
+            background-color: #ff00ff;
+            border: none;
+            color: #000;
+        }
+        .btn-primaryd {
+            background-color: #5eff00;
+            border: none;
+            color: #000;
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+	<body >
+
 
 
 				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Serie</a>
-					</header>
-
+				<header id="header">
+					<a href="index.html" class="logo btn btn-primary page active">Kimbrairie</a>
+				</header>
+			
 				<!-- Nav -->
-				<nav id="nav">
-					<ul class="links">
-						<li ><a href="index.html">Gen</a></li>
-						<li class="active"><a href="Serie.html">Serie </a></li>
-						<li ><a href="generic.html">Top</a></li>
-					</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+				<nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+					<div class="container">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item"><a class="nav-link btn btn-primarya " href="index.html">Accueil</a></li>
+								<li class="nav-item"><a class="nav-link btn btn-primaryb " href="serie.html">Séries</a></li>
+								<li class="nav-item active"><a class="nav-link btn btn-primaryc " href="story.html">Histoire</a></li>
+								<li class="nav-item "><a class="nav-link btn btn-primaryd " href="top.html">Top</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			
 
-				<!-- Main -->
-					<div id="main">
 
-						<!--Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Janvier, 2025</span>
-									<h2><a href="#">Mafia et drame <br />
-									Jonny</a></h2>
-									<p>Dans les somptueux mais sinistres couloirs du palais des Briderstone, une famille de mafieux impitoyables règne en maître sur un empire bâti sur la peur et le sang. Loyaux jusqu'à la mort les uns envers les autres, les Briderstone ne tolèrent ni trahison ni faiblesse. Mais Jonny, leur humble voisin et serviteur fidèle, nourrit un secret inavouable : il aspire à devenir plus qu’un simple spectateur.
+
+				<div class="container mt-4">
+					<h2 class="text-center mb-4">Series littéraires</h2>
+					<div class="row">
+						<div class="col-lg-6 mb-4">
+							<div class="card h-100 shadow">
+								<img src="images/Jonny.jpeg" class="card-img-top" alt="">
+								<div class="card-body text-center">
+									<h5 class="card-title">Jonny</h5>
+									<p class="card-text">Dans les somptueux mais sinistres couloirs du palais des Briderstone, une famille de mafieux impitoyables règne en maître sur un empire bâti sur la peur et le sang. Loyaux jusqu'à la mort les uns envers les autres, les Briderstone ne tolèrent ni trahison ni faiblesse. Mais Jonny, leur humble voisin et serviteur fidèle, nourrit un secret inavouable : il aspire à devenir plus qu’un simple spectateur.
 
 										Dans un acte audacieux, Jonny diffuse un gaz mystérieux à travers le manoir, effaçant la mémoire des Briderstone. Libérés du poids de leur passé, ils deviennent des marionnettes entre les mains d’un Jonny calculateur et rusé, qui s’impose progressivement comme le nouveau baron du crime.
 										
 										Cependant, manipuler une famille aussi redoutable n’est pas sans conséquence. Tandis qu'il s’efforce de maintenir son contrôle, Jonny doit faire face à des sous-fifres enragés, des alliances fragiles, et le spectre d’une vérité qui pourrait briser son emprise.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/Jonny.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="Suite2.html" class="button large">Voir l'histoire</a></li>
-								</ul>
-							</article>
-
-                            <article class="post featured">
-								<header class="major">
-									<span class="date">Janvier, 2025</span>
-									<h2><a href="#">Drame et humour<br />
-									Money</a></h2>
-									<p>Roger, un magnat financier sans scrupules, est à la tête de la puissante entreprise BBSY. Obsédé par l'argent, il ne vit que pour les profits et impose une discipline de fer à ses employés. Mais un jour, un choc retentit : le compte bancaire de l’entreprise est mystérieusement vidé, plongeant Roger dans un gouffre financier et une crise existentielle.
+									<a href="Suite2.html" class="btn btn-primary">Voir l'histoire 📄</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 mb-4">
+							<div class="card h-100 shadow">
+								<img src="images/Money.jpeg" class="card-img-top" alt="Money">
+								<div class="card-body text-center">
+									<h5 class="card-title">Money</h5>
+									<p class="card-text">Roger, un magnat financier sans scrupules, est à la tête de la puissante entreprise BBSY. Obsédé par l'argent, il ne vit que pour les profits et impose une discipline de fer à ses employés. Mais un jour, un choc retentit : le compte bancaire de l’entreprise est mystérieusement vidé, plongeant Roger dans un gouffre financier et une crise existentielle.
 
 										Pour résoudre ce mystère, il fait appel à l’ARPF (Association de Résolution des Problèmes Financiers), un groupe d'experts spécialisés dans la récupération d’avoirs perdus. La quête pour sauver BBSY commence alors, dévoilant une série d’événements intrigants, de fausses pistes et de secrets inavouables.
 										
 										Au fur et à mesure que l'enquête progresse, Roger commence à réaliser que l'ennemi qu’il traque n'est autre que lui-même. En manipulant les systèmes financiers pour des profits personnels, il a lui-même créé le désastre qu’il tente désespérément de résoudre.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/Money.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="Suite1.html" class="button large">Voir l'histoire</a></li>
-								</ul>
-							</article>
-
-                            
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
+									<a href="Suite1.html" class="btn btn-primary" >Voir l'histoire 📄</a>
 								</div>
-							</footer>
-
+							</div>
+						</div>
 					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Nom</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>BP 225 Benin DASSA<br />
-								</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(229) 01-97-06-76-15</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">clauviseliakim@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Librairie</li><li>Design: <a href="https://cartevisit.vercel.app/">Eliakim Clauvis</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<!-- Vendor JS Files -->
-						<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-						<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-			
-
-	</body>
-</html>
+				</div>
+				<footer class="text-center mt-4">
+					<p>&copy; Librairie | Design par <a href="https://cartevisit.vercel.app/" class="btn btn-primary page active">Eliakim Clauvis</a></p>
+				</footer>
+									
+							<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+						</body>
+						</html>
+						
